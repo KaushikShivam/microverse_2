@@ -91,3 +91,23 @@ form {
 .btn:focus {
 	background-color: orange;
 }
+ .features-box{
+ 	display: flex;
+ 	justify-content: space-around; 
+ 	margin: 0 10rem ;
+
+ }
+ .icon1{
+ 	height: 5rem;
+ 	width: 5rem;
+ 	margin: 2rem;
+ }
+ .feature{
+ 	margin-left: 2rem;
+ 	margin-bottom: 5rem;
+ 	
+ }
+ .video{
+ 	display: flex;
+ 	justify-content: center;
+ }
