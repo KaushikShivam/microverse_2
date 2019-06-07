@@ -85,6 +85,8 @@ form {
 	cursor: pointer;
 	transition: all 0.2s;
 	border: none;
+	text-decoration: none;
+	color: black;
 }
 
 .btn:hover,
@@ -120,4 +122,48 @@ form {
 	margin: 15rem 0;
 	display: flex;
 	justify-content: center;
+}
+
+.pricing {
+	display: flex;
+	justify-content: center;
+}
+
+.pricing-box {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 1.5rem;
+	width: 30rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading-tertiary {
+	font-size: 1.5rem;
+	padding: 2rem;
+	background-color: #ddd;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+.pricing-box p {
+	font-size: 3rem;
+	margin-top: 1rem;
+}
+
+.pricing-box ul {
+	list-style: none;
+	margin: 1rem;
+	text-align: center;
+}
+
+.pricing-box ul li {
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+.pricing-box .btn {
+	margin: 1.5rem 0;
 }
