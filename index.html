@@ -10,15 +10,15 @@
 
 <body>
   <!-- Header component  -->
-  <header class="header">
+  <header class="header" id="header">
     <!-- Nav bar -->
-    <nav class="nav-bar">
+    <nav class="nav-bar" id="nav-bar">
       <div class="nav-box">
         <img src="icons/favorite-heart-button.png" alt="Company Logo" id="header-img">
         <ul class="nav-links">
-          <li class="nav-link"><a href="#features">Features</a></li>
-          <li class="nav-link"><a href=#video>How it works</a></li>
-          <li class="nav-link"><a href="#pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href=#video>How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </div>
     </nav>
@@ -26,7 +26,7 @@
       <h1 class="heading-secondary">Handcrafted, home-made masterpieces</h1>
       <!-- Submit Form -->
       <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="text" name="email" id="email" placeholder="Please enter email" required>
+        <input type="email" name="email" id="email" placeholder="Please enter email" required>
         <input type="submit" value="Get Started" id="submit" class="btn">
       </form>
     </div>
@@ -66,8 +66,8 @@
     </div>
   </section>
   <!-- Video Section -->
-  <section id="video" class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
+  <section class="video">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
   <!-- Pricing section -->
