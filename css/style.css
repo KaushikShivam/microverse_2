@@ -13,12 +13,23 @@ body {
 	box-sizing: border-box;
 	font-size: 2rem;
 	font-family: 'Lato', serif;
+	background-color: #eee;
+}
+
+.header {
+	position: relative;
 }
 
 .nav-bar {
+	padding: 2rem 10rem;
+	width: 100%;
+	position: fixed;
+	background-color: #eee;
+}
+
+.nav-box {
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem 10rem;
 }
 
 #header-img {
@@ -39,4 +50,44 @@ body {
 .nav-links li a {
 	text-decoration: none;
 	color: black;
+}
+
+.hero-box {
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+}
+
+#email {
+	width: 40rem;
+	height: 3rem;
+	background-color: white;
+	padding-left: 2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+	background-color: #f1c40f;
+	align-self: center;
+	margin-top: 1.5rem;
+	font-size: 2rem;
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+	transition: all 0.2s;
+	border: none;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: orange;
 }
