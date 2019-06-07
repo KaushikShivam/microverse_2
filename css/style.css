@@ -91,23 +91,33 @@ form {
 .btn:focus {
 	background-color: orange;
 }
- .features-box{
- 	display: flex;
- 	justify-content: space-around; 
- 	margin: 0 10rem ;
 
- }
- .icon1{
- 	height: 5rem;
- 	width: 5rem;
- 	margin: 2rem;
- }
- .feature{
- 	margin-left: 2rem;
- 	margin-bottom: 5rem;
- 	
- }
- .video{
- 	display: flex;
- 	justify-content: center;
- }
+/* 
+
+.feature {
+	/* margin-left: 2rem;
+	margin-bottom: 5rem; */
+/* } */
+
+.features-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.feature {
+	width: 80%;
+	margin-left: 4rem;
+}
+
+.icon1 {
+	height: 5rem;
+	width: 5rem;
+}
+
+.video {
+	margin: 15rem 0;
+	display: flex;
+	justify-content: center;
+}
