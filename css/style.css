@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	/* default size - 16px, We want 10px as base, so we divide 10/16, now our base size = 10px   */
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	font-size: 2rem;
+	font-family: 'Lato', serif;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 10rem;
+}
+
+#header-img {
+	/* TODO: Change it */
+	width: 3rem;
+	height: 3rem;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+}
+
+.nav-links li {
+	margin-left: 8rem;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: black;
+}
